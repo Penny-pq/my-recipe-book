@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "tomato-scrambled-eggs",
+    "title": "經典滑嫩番茄炒蛋",
+    "subtitle": "酸甜多汁、蛋香濃郁的國民家常零失敗料理",
+    "category": "家常快手菜",
+    "prepTime": "10 分鐘",
+    "cookTime": "8 分鐘",
+    "servings": 2,
+    "difficulty": "簡單",
+    "tags": [
+      "家常菜",
+      "15分鐘上菜",
+      "下飯料理"
+    ],
+    "emoji": "🍅",
+    "created": "2026-11-15"
+  },
+  {
+    "slug": "japanese-curry-rice",
+    "title": "濃郁蘋果蜂蜜日式咖哩飯",
+    "subtitle": "加入磨泥蘋果與洋蔥焦糖化慢炒，溫潤甘甜的家庭風味",
+    "category": "異國主食",
+    "prepTime": "15 分鐘",
+    "cookTime": "35 分鐘",
+    "servings": 4,
+    "difficulty": "簡單",
+    "tags": [
+      "日式料理",
+      "一鍋到底",
+      "便當常備菜"
+    ],
+    "emoji": "🍛",
+    "created": "2026-11-15"
+  },
+  {
+    "slug": "garlic-butter-shrimp-pasta",
+    "title": "蒜香奶油鮮蝦義大利麵",
+    "subtitle": "15 分鐘快速上桌，濃郁蒜香與海味完美乳化的經典義麵",
+    "category": "異國主食",
+    "prepTime": "10 分鐘",
+    "cookTime": "12 分鐘",
+    "servings": 2,
+    "difficulty": "中等",
+    "tags": [
+      "義大利麵",
+      "海鮮料理",
+      "約會晚餐"
+    ],
+    "emoji": "🍝",
+    "created": "2026-11-15"
+  },
+  {
+    "slug": "matcha-basque-cheesecake",
+    "title": "宇治抹茶流心巴斯克乳酪蛋糕",
+    "subtitle": "外層焦香微苦、內心如冰淇淋般綿密滑順的零失敗甜點",
+    "category": "甜點烘焙",
+    "prepTime": "15 分鐘",
+    "cookTime": "25 分鐘",
+    "servings": 6,
+    "difficulty": "簡單",
+    "tags": [
+      "免打發甜點",
+      "抹茶控",
+      "下午茶"
+    ],
+    "emoji": "🍵",
+    "created": "2026-11-15"
+  }
+]
