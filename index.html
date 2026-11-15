@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>暖心廚房日誌｜Cozy Kitchen Journal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#/" class="brand" id="brand-home">
+        <span class="brand-icon">🥘</span>
+        <div>
+          <h1 class="brand-title">暖心廚房日誌</h1>
+          <p class="brand-subtitle">Cozy Kitchen Journal — 規則驅動的個人食譜收藏庫</p>
+        </div>
+      </a>
+      <div class="header-meta">
+        <span class="recipe-counter" id="recipe-counter">載入食譜中...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- 列表瀏覽視圖 (Home View) -->
+    <section id="list-view">
+      <div class="controls-bar">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="搜尋料理名稱、食材或標籤（例如：番茄、咖哩、抹茶）..."
+            aria-label="搜尋食譜"
+          />
+        </div>
+        <div class="category-tabs" id="category-tabs" role="tablist">
+          <button class="tab-btn active" data-category="全部">全部料理</button>
+          <button class="tab-btn" data-category="家常快手菜">家常快手菜</button>
+          <button class="tab-btn" data-category="異國主食">異國主食</button>
+          <button class="tab-btn" data-category="暖胃湯品">暖胃湯品</button>
+          <button class="tab-btn" data-category="甜點烘焙">甜點烘焙</button>
+          <button class="tab-btn" data-category="飲品輕食">飲品輕食</button>
+        </div>
+      </div>
+
+      <div id="recipe-grid" class="recipe-grid">
+        <!-- 由 app.js 動態渲染食譜卡片 -->
+      </div>
+
+      <div id="empty-state" class="empty-state hidden">
+        <p class="empty-emoji">🍽️</p>
+        <h3>找不到符合條件的食譜</h3>
+        <p>試試看其他關鍵字，或點選「全部料理」瀏覽所有已收錄的美味食譜！</p>
+      </div>
+    </section>
+
+    <!-- 單篇食譜詳情視圖 (Detail View) -->
+    <section id="detail-view" class="hidden">
+      <button class="back-btn" id="back-to-list">← 返回所有食譜</button>
+      <article id="recipe-article" class="recipe-article">
+        <!-- 由 app.js 動態渲染 Markdown 食譜內容 -->
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>暖心廚房日誌 Cozy Kitchen Journal · 依照 <code>AGENTS.md</code> 規範建置與持續擴充</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
